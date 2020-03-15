@@ -1,0 +1,30 @@
+doctype html
+html(lang='en')
+ head
+   title= title
+   link(rel='stylesheet', href='/stylesheets/style.css')   
+ body
+  div.site-wrapper
+   block header
+    header.siteHeader
+     div.site-header-content
+      // Make this a custom fond .img
+      h1#siteTitle IFB102 Project
+     nav.site-nav
+      .site-nav-links
+       ul(role='menu').nav
+        li.nav-links: a(href='home') Home
+        li.nav-links: a(href='/topics') Topics
+        li.nav-links: a(href='/ref') References
+      .site-nav-social
+       ul(role='menu').nav
+        li.nav-links: a Facebook
+        li.nav-links: a Twitter
+        li.nav-links: a Instagram
+        li.nav-links: a Profile
+    
+   block content
+     
+   block footer
+    .footers
+      h4 footer
