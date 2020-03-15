@@ -1,0 +1,45 @@
+.page-wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: none;
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+  width: 100%;
+  background-color: blue;
+  min-height: 300px;
+}
+.graphic{
+  background-color: lightgrey;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contents{
+  background: lightyellow;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.row{
+  width: 60%;
+  min-height: 30px;
+  background-color: lightgrey;
+  margin: 15px;
+  border-radius: 10px;
+}
+img {
+  border-radius: 10px;
+}
